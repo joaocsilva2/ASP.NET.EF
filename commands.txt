@@ -1,0 +1,19 @@
+Instalar EntityFramework 6 - nuget v2
+
+Habilitar Migrations - Package Manager Console:
+Enable-Migrations
+
+Classe Contexto, criar um construtor acessando a string de conexao do webconfig:
+public ContextoEF() : base(ConfigurationManager.ConnectionStrings["SqlConnection"].ConnectionString)
+{
+}
+
+Migrations, criar scripts:
+Add-Migration Inicial
+
+Migrations, Criar tabelas:
+Update-Database
+
+Migrations, reversão:
+Update-Migration -TargetMigration <nome da migration>
+

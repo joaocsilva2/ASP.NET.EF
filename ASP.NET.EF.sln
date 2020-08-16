@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsEF", "WebFormsEF\WebFormsEF.csproj", "{7C6302CA-97FF-4618-BEDA-A37BAD0B2381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{E5930FD9-60CD-4186-9D32-E0C6775E123F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{2D6CAF56-AA84-44F2-AFC7-F9499D2DC39A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C6302CA-97FF-4618-BEDA-A37BAD0B2381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6302CA-97FF-4618-BEDA-A37BAD0B2381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6302CA-97FF-4618-BEDA-A37BAD0B2381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6302CA-97FF-4618-BEDA-A37BAD0B2381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5930FD9-60CD-4186-9D32-E0C6775E123F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5930FD9-60CD-4186-9D32-E0C6775E123F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5930FD9-60CD-4186-9D32-E0C6775E123F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5930FD9-60CD-4186-9D32-E0C6775E123F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D6CAF56-AA84-44F2-AFC7-F9499D2DC39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D6CAF56-AA84-44F2-AFC7-F9499D2DC39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D6CAF56-AA84-44F2-AFC7-F9499D2DC39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D6CAF56-AA84-44F2-AFC7-F9499D2DC39A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F0618D2-F7DB-4243-8116-DFF7212DEAAB}
+	EndGlobalSection
+EndGlobal
